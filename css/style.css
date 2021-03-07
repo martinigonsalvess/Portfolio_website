@@ -497,6 +497,9 @@ img {
     font-size: 3rem;
     font-weight: bold;
   }
+  .home_data {
+    padding-top: 12rem;
+  }
   .nav_menu {
     width: var(--nav-width);
   }
@@ -544,6 +547,11 @@ img {
   .nav_menu {
     left: 0;
   }
+  .home,
+  .skills,
+  .works {
+    background-color: #dcdde1;
+  }
   .home_container {
     height: 100vh;
   }
@@ -554,6 +562,9 @@ img {
   .home_img {
     width: 300px;
     height: 300px;
+  }
+  .home_data {
+    padding-top: 10rem;
   }
 
   .section {
