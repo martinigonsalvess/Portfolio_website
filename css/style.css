@@ -242,7 +242,7 @@ img {
   transition: 0.3s;
 }
 .home_social-link:hover {
-  background-color: var(--first-color-dark);
+  background-color: var(--text-color-link);
 }
 /* .home_button {
   width: 100%;
@@ -250,15 +250,19 @@ img {
 /*buttons*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
-  color: var(--first-color-lighten);
+  /* background-color: var(--first-color);
+  color: var(--first-color-lighten); */
   padding: 1rem 2rem;
   font-weight: var(--font-semi-bold);
   border-radius: 0.5rem;
   transition: 0.3s;
+  border: 2px solid var(--first-color);
+  color: var(--first-color);
 }
 .button:hover {
-  background-color: var(--first-color-dark);
+  /* background-color: var(--first-color-dark); */
+  background-color: var(--text-color-link);
+  color: white;
 }
 .button_light {
   background-color: var(--first-color-lighten);
@@ -546,6 +550,10 @@ img {
   .home_profession {
     font-size: 4rem;
     font-weight: bold;
+  }
+  .home_img {
+    width: 300px;
+    height: 300px;
   }
 
   .section {
