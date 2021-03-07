@@ -460,12 +460,13 @@ img {
   text-align: center;
 }
 .footer_container {
-  background-color: #dcdde1;
+  background-color: black;
   /* background-color: var(--first-color-darken); */
-  padding: 3rem 0;
+  padding: 1.5rem 0;
   border-radius: 0.5rem;
 }
 .footer_title {
+  color: var(--first-color-darken);
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-2);
 }
@@ -473,7 +474,7 @@ img {
   margin-bottom: var(--mb-2);
 }
 .footer_social {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .footer_link {
   display: inline-flex;
@@ -491,7 +492,7 @@ img {
 }
 .footer_copy {
   font-size: var(--smaller-font-size);
-  color: var(--text-color);
+  color: var(--first-color-lighten);
 }
 /*media queries*/
 
@@ -515,6 +516,11 @@ img {
   .contact_container,
   .contact_inputs {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .home,
+  .skills,
+  .works {
+    background-color: #dcdde1;
   }
   .about_data {
     text-align: initial;
