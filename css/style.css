@@ -13,9 +13,9 @@
   --first-color: #025955;
   --first-color-dark: #00917c;
   --first-color-darken: #f3d00b;
-  --first-color-darken-nav: #f8d406;
+  --first-color-darken-nav: #f3b50b;
   --text-color: #433520;
-  --text-color-link: #f3d00b;
+  --text-color-link: #f3b50b;
   --first-color-light: #eae7e6;
   --first-color-lighten: #fffafa;
   /*colors copy*/
@@ -455,9 +455,15 @@ img {
 
 /*footer*/
 .footer {
-  background-color: var(--first-color-darken);
+  /* background-color: var(--first-color-darken); */
   color: var(--first-color-lighten);
   text-align: center;
+}
+.footer_container {
+  background-color: #dcdde1;
+  /* background-color: var(--first-color-darken); */
+  padding: 3rem 0;
+  border-radius: 0.5rem;
 }
 .footer_title {
   font-size: var(--h1-font-size);
@@ -524,11 +530,6 @@ img {
   }
   .contact_info {
     padding-left: 3rem;
-  }
-  .footer_container {
-    background-color: var(--first-color-darken);
-    padding: 3rem 0;
-    border-radius: 0.5rem;
   }
 }
 @media screen and (min-width: 1024px) {
