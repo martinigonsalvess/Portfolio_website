@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 /*variable css*/
 :root {
   --header-height: 3rem;
@@ -27,6 +27,7 @@
   --first-color-lighten: #fffafa; */
   /*font and typography*/
   --body-font: "Quicksand", sans-serif;
+  --dancing-font: "Dancing Script", cursive;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
@@ -227,6 +228,7 @@ img {
   width: 100%;
 }
 .home_title {
+  font-family: var(--dancing-font);
   font-size: var(--h1-font-size);
   color: var(--first-color);
   font-weight: var(--font-semi-bold);
@@ -470,7 +472,7 @@ img {
   text-align: center;
 }
 .footer_container {
-  background-color: black;
+  background-color: #353b48;
   /* background-color: var(--first-color-darken); */
   padding: 1.5rem 0;
   border-radius: 0.5rem;
