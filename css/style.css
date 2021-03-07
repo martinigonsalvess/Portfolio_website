@@ -223,7 +223,8 @@ img {
 }
 .home_profession {
   /* font-size: var(--small-font-size); */
-  font-size: 1.2rem;
+  font-size: 2.2rem;
+  font-weight: bold;
   color: var(--first-color-dark);
   margin-bottom: var(--mb-5);
 }
@@ -488,6 +489,10 @@ img {
   .home_button {
     width: initial;
   }
+  .home_profession {
+    font-size: 3rem;
+    font-weight: bold;
+  }
   .nav_menu {
     width: var(--nav-width);
   }
@@ -538,6 +543,11 @@ img {
   .home_container {
     height: 100vh;
   }
+  .home_profession {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
   .section {
     padding: 3rem 1rem 2rem;
   }
