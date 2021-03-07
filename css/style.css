@@ -17,7 +17,7 @@
   --text-color: #433520;
   --text-color-link: #f3b50b;
   --first-color-light: #eae7e6;
-  --first-color-lighten: #fffafa;
+  --first-color-lighten: #fff;
   /*colors copy*/
   /* --first-color: #cc4b2c;
   --first-color-dark: #662616;
@@ -141,6 +141,7 @@ img {
 }
 .nav_logo {
   font-size: 1.5rem;
+  color: var(--first-color-lighten);
 }
 .nav_menu {
   position: fixed;
@@ -176,9 +177,12 @@ img {
   color: var(--text-color-link);
 }
 .nav_toggle {
-  color: var(--first-color-dark);
+  color: white;
   font-size: 1.6rem;
   cursor: pointer;
+}
+.nav_toggle:hover {
+  color: var(--first-color-dark);
 }
 
 /*show menu*/
@@ -250,8 +254,6 @@ img {
 /*buttons*/
 .button {
   display: inline-block;
-  /* background-color: var(--first-color);
-  color: var(--first-color-lighten); */
   padding: 1rem 2rem;
   font-weight: var(--font-semi-bold);
   border-radius: 0.5rem;
@@ -263,6 +265,7 @@ img {
   /* background-color: var(--first-color-dark); */
   background-color: var(--text-color-link);
   color: white;
+  /* border: none; */
 }
 .button_light {
   background-color: var(--first-color-lighten);
