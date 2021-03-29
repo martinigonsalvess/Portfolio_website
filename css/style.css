@@ -302,6 +302,7 @@ img {
 .about_description {
   margin-bottom: var(--mb-4);
 }
+
 .about_img {
   width: 150px;
   border-radius: 0.5rem;
