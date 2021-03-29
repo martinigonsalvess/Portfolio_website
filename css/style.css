@@ -622,4 +622,8 @@ img {
   .footer_title {
     letter-spacing: 0.2rem;
   }
+  .footer_link {
+    transform: scale(1.5);
+    margin-right: 2rem;
+  }
 }
