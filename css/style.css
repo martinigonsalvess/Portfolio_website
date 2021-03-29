@@ -608,6 +608,9 @@ img {
   .home_data {
     padding-top: 10rem;
   }
+  .home_social {
+    margin-bottom: 3.5rem;
+  }
 
   .section {
     padding: 3rem 1rem 2rem;
@@ -622,8 +625,10 @@ img {
   .footer_title {
     letter-spacing: 0.2rem;
   }
-  .footer_link {
+  .footer_link,
+  .home_social {
     transform: scale(1.5);
-    margin-right: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
   }
 }
