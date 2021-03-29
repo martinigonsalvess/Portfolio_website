@@ -395,12 +395,16 @@ img {
   justify-content: space-between;
   align-items: center;
   margin-bottom: var(--mb-4);
+  /* flex-wrap: wrap; */
 }
 .edu_subtitle {
   font-size: var(--h3-font-size);
   font-weight: bold;
   color: var(--first-color-dark);
   /* margin-bottom: var(--mb-2); */
+}
+.education_year {
+  font-size: 0.8rem;
 }
 /*works*/
 .works_container {
