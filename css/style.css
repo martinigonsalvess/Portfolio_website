@@ -132,10 +132,10 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--first-color-lighten);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* background-color: var(--first-color-lighten); */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
   background-color: var(--first-color-darken-nav);
-  /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5)); */
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.3));
 }
 /*nav*/
 .nav {
@@ -574,6 +574,7 @@ img {
   }
   .l-header {
     width: 0;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
   }
   .nav_toggle,
   .nav_logo,
