@@ -390,6 +390,12 @@ img {
   align-items: center;
   margin-bottom: var(--mb-4);
 }
+.edu_subtitle {
+  font-size: var(--h3-font-size);
+  font-weight: bold;
+  color: var(--first-color-dark);
+  /* margin-bottom: var(--mb-2); */
+}
 /*works*/
 .works_container {
   justify-items: center;
