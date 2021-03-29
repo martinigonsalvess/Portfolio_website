@@ -501,6 +501,7 @@ img {
   color: var(--first-color-darken);
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-2);
+  /* letter-spacing: 0.2rem; */
 }
 .footer_description {
   margin-bottom: var(--mb-2);
@@ -617,5 +618,8 @@ img {
   }
   .works_container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .footer_title {
+    letter-spacing: 0.2rem;
   }
 }
