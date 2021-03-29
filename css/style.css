@@ -183,12 +183,12 @@ img {
   font-weight: var(--font-bold);
   /* transition: 0.3s; */
   transition: all 0.2s ease-in-out;
-  letter-spacing: 2px;
+  letter-spacing: 0.5rem;
 }
 
 .nav_link:hover {
   color: var(--text-color-link);
-  transition: all 0.5s ease-in-out;
+  /* transition: all 0.5s ease-in-out; */
 }
 .nav_toggle {
   color: white;
