@@ -101,6 +101,7 @@ img {
 }
 .section-title {
   font-size: var(--h1-font-size);
+  text-transform: uppercase;
   color: var(--first-color);
   margin-bottom: var(--mb-3);
   text-align: center;
