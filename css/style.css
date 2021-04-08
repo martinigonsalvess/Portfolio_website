@@ -194,13 +194,13 @@ img {
   /* transition: all 0.5s ease-in-out; */
 }
 .nav_toggle {
-  color: white;
+  color: var(--first-color);
   font-size: 1.6rem;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .nav_toggle:hover {
-  color: var(--first-color-dark);
+  color: var(--text-color-link);
 }
 
 /*show menu*/
@@ -216,7 +216,8 @@ img {
 
 .home,
 .skills,
-.works {
+.works,
+.footer {
   background-color: var(--background-color);
 }
 .home_container {
@@ -526,10 +527,10 @@ span {
   text-align: center;
 }
 .footer_container {
-  background-color: #353b48;
+  /* background-color: #353b48; */
   /* background-color: var(--first-color-darken); */
   padding: 1.5rem 0;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
 }
 .footer_title {
   color: var(--first-color-darken);
