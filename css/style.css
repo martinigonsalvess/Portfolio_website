@@ -382,6 +382,10 @@ span {
 }
 .skills_name {
   text-transform: uppercase;
+  color: var(--text-color);
+}
+.skills_number {
+  color: var(--text-color);
 }
 .skills_bar {
   position: absolute;
@@ -402,7 +406,7 @@ span {
   width: 30%;
 }
 .skills_material {
-  width: 40%;
+  width: 30%;
 }
 .skills_node {
   width: 60%;
