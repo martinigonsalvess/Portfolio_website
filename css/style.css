@@ -344,6 +344,7 @@ img {
 .about_information-title {
   font-size: var(--h3-font-size);
   color: var(--first-color-dark);
+  text-transform: uppercase;
   margin-bottom: var(--mb-2);
 }
 .about_information-data {
@@ -375,6 +376,7 @@ span {
 .skills_subtitle {
   font-size: var(--h3-font-size);
   color: var(--first-color-dark);
+  text-transform: uppercase;
   margin-bottom: var(--mb-2);
 }
 .skills_data {
@@ -385,7 +387,7 @@ span {
   margin-bottom: var(--mb-4);
 }
 .skills_name {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: var(--text-color);
 }
 .skills_number {
@@ -439,6 +441,8 @@ span {
   font-size: var(--h3-font-size);
   font-weight: bold;
   color: var(--first-color-dark);
+  text-transform: uppercase;
+
   /* margin-bottom: var(--mb-2); */
 }
 .education_year {
@@ -516,6 +520,7 @@ span {
 .contact_subtitle {
   font-size: var(--h3-font-size);
   color: var(--first-color-dark);
+  text-transform: uppercase;
   margin-bottom: var(--mb-1);
 }
 .contact_text {
@@ -602,6 +607,12 @@ span {
   .about_information {
     padding-left: 4rem;
   }
+  .education_year {
+    font-size: 1rem;
+    /* font-family: monospace; */
+    /* font-weight: bold; */
+    /* letter-spacing: 1px; */
+  }
   .contact_info {
     padding-left: 3rem;
   }
@@ -651,6 +662,7 @@ span {
     margin-left: auto;
     margin-right: auto;
   }
+
   .works_container {
     grid-template-columns: repeat(2, 1fr);
   }
