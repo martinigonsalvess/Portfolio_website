@@ -586,11 +586,11 @@ span {
     font-weight: bold;
   }
   .home_data {
-    padding-top: 10rem;
+    padding-top: 5rem;
     align-items: center;
   }
   .home_img {
-    margin: 5rem 0 5rem 0;
+    margin: 3rem 0 3rem 0;
   }
   .nav_menu {
     width: var(--nav-width);
