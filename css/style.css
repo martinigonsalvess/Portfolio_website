@@ -141,7 +141,7 @@ img {
   z-index: 20;
 }
 .arrow_btn a i {
-  background-color: red;
+  background-color: var(--first-color);
   border-radius: 50%;
 }
 
