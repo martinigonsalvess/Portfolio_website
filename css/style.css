@@ -144,6 +144,9 @@ img {
   background-color: var(--first-color);
   border-radius: 50%;
 }
+.arrow_btn a i:hover {
+  background-color: var(--text-color-link);
+}
 
 .nav {
   height: var(--header-height);
