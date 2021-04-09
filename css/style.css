@@ -587,8 +587,8 @@ span {
     font-weight: bold;
   }
   .home_data {
-    padding-top: 5rem;
-    align-items: center;
+    /* padding-top: 5rem; */
+    /* align-items: center; */
   }
   .home_title {
     font-size: 2.2rem;
@@ -659,8 +659,8 @@ span {
     background-repeat: no-repeat; */
   }
   .home_data {
-    padding-top: 7rem;
-    align-items: center;
+    padding-top: 5rem;
+    /* align-items: center; */
   }
 
   .home_profession {
