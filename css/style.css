@@ -249,6 +249,7 @@ img {
   height: 200px;
   background-color: var(--first-color);
   border-radius: 50%;
+  border: 0.3rem solid #6b6e70;
   overflow: hidden;
   margin-top: 5rem;
   margin-bottom: var(--mb-2);
