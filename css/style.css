@@ -10,9 +10,7 @@
   --font-semi-bold: 600;
   --font-bold: 700;
   /*colors*/
-  /* --first-color: #025955; */
   --first-color: #86c232;
-  /* --first-color-dark: #00917c; */
   --first-color-dark: #61892f;
   --first-color-darken: #f3d00b;
   --first-color-darken-nav: #f3b50b;
@@ -22,13 +20,7 @@
   --first-color-lighten: #fff;
   --background-color: #222629;
   --text-color2: #474b4f;
-  /*colors copy*/
-  /* --first-color: #cc4b2c;
-  --first-color-dark: #662616;
-  --first-color-darken: #290f09;
-  --text-color: #54423d;
-  --first-color-light: #eae7e6;
-  --first-color-lighten: #fffafa; */
+
   /*font and typography*/
   --body-font: "Quicksand", sans-serif;
   --dancing-font: "Dancing Script", cursive;
@@ -152,6 +144,7 @@ img {
   background-color: red;
   border-radius: 50%;
 }
+
 .nav {
   height: var(--header-height);
   display: flex;
@@ -202,9 +195,20 @@ img {
   letter-spacing: 0.5rem;
 }
 
-.nav_link:hover {
+.nav_link:hover,
+.cv_link:hover {
   color: var(--text-color-link);
   transition: all 0.3s ease-in-out;
+}
+.nav_cv {
+  margin-top: 5rem;
+}
+.cv_link {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--text-color2);
+  font-weight: var(--font-bold);
+  letter-spacing: 0.2rem;
 }
 .nav_toggle {
   color: var(--first-color);
@@ -234,15 +238,10 @@ img {
 .footer {
   background-color: var(--background-color);
 }
-/* .home {
-  background-image: url("/assets/img/amsterdam_canalGREY.jpg");
-  background-size: cover;
-} */
+
 .home_container {
   height: calc(100vh - var(--header-height));
   align-items: center;
-  /* background-image: url("/assets/img/amsterdam_canal.jpg");
-  background-size: cover;  */
 }
 .home_data {
   display: flex;
@@ -285,7 +284,6 @@ img {
   margin-bottom: 2rem;
   display: none;
 }
-/*OLD VERSION*/
 
 .home_social-link {
   display: inline-flex;
@@ -312,7 +310,6 @@ img {
   -webkit-text-fill-color: transparent;
   transform: scale(3);
 } */
-/*END OLD VERSION*/
 
 /*buttons*/
 .button {
@@ -321,7 +318,7 @@ img {
   font-weight: var(--font-semi-bold);
   border-radius: 0.5rem;
   border: 2px solid var(--first-color);
-  color: var(--first-color);
+  color: var(--text-color);
   transition: all 0.5s ease-in-out;
 }
 .button:hover {
@@ -343,12 +340,8 @@ img {
   row-gap: 2rem;
 }
 .about_data {
-  /* text-align: center; */
   color: var(--text-color2);
 }
-/* .about_description {
-  margin-bottom: var(--mb-4);
-} */
 
 /* .about_img {
   width: 150px;
