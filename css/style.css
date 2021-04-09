@@ -589,6 +589,9 @@ span {
     padding-top: 5rem;
     align-items: center;
   }
+  .home_title {
+    font-size: 2.2rem;
+  }
   .home_img {
     margin: 3rem 0 3rem 0;
   }
@@ -655,6 +658,7 @@ span {
     padding-top: 7rem;
     align-items: center;
   }
+
   .home_profession {
     font-size: 4rem;
     font-weight: bold;
