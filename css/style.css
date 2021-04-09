@@ -223,19 +223,24 @@ img {
 .footer {
   background-color: var(--background-color);
 }
+/* .home {
+  background-image: url("/assets/img/amsterdam_canalGREY.jpg");
+  background-size: cover;
+} */
 .home_container {
   height: calc(100vh - var(--header-height));
   align-items: center;
-  /* background-image: url("/assets/img/martinPNG2.png");
-  background-size: cover; */
+  /* background-image: url("/assets/img/amsterdam_canal.jpg");
+  background-size: cover;  */
 }
 .home_data {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   height: max-content;
-  text-align: center;
-  padding-top: 2rem;
+  /* text-align: center; */
+  padding: 2rem;
 }
 .home_img {
   padding-top: 0rem;
@@ -245,17 +250,16 @@ img {
   background-color: var(--first-color);
   border-radius: 50%;
   overflow: hidden;
+  margin-top: 5rem;
   margin-bottom: var(--mb-2);
 }
 .home_img img {
   width: 100%;
 }
 .home_title {
-  /* font-family: var(--dancing-font); */
-  font-family: var(--amiri-font);
-  font-size: var(--h1-font-size);
-  color: var(--first-color);
-  font-weight: var(--font-semi-bold);
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: var(--text-color);
 }
 .home_profession {
   /* font-size: var(--small-font-size); */
@@ -582,7 +586,11 @@ span {
     font-weight: bold;
   }
   .home_data {
-    padding-top: 12rem;
+    padding-top: 10rem;
+    align-items: center;
+  }
+  .home_img {
+    margin: 5rem 0 5rem 0;
   }
   .nav_menu {
     width: var(--nav-width);
@@ -643,17 +651,20 @@ span {
     /* background-size: contain;
     background-repeat: no-repeat; */
   }
+  .home_data {
+    padding-top: 10rem;
+    align-items: center;
+  }
   .home_profession {
     font-size: 4rem;
     font-weight: bold;
   }
   .home_img {
+    margin: 5rem 0 5rem 0;
     width: 300px;
     height: 300px;
   }
-  .home_data {
-    padding-top: 10rem;
-  }
+
   .home_social {
     margin-bottom: 3.5rem;
   }
