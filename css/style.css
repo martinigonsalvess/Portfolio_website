@@ -321,8 +321,10 @@ img {
   font-weight: var(--font-semi-bold);
   border-radius: 0.5rem;
   border: 2px solid var(--first-color);
-  color: var(--text-color);
+  color: var(--first-color);
+  background-color: transparent;
   transition: all 0.5s ease-in-out;
+  letter-spacing: 0.1rem;
 }
 .button:hover {
   background-color: var(--text-color-link);
