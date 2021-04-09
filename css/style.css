@@ -143,8 +143,8 @@ img {
 /*nav*/
 .arrow_btn {
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 1rem;
+  right: 1rem;
   font-size: 2.2rem;
   z-index: 20;
 }
