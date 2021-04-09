@@ -146,6 +146,7 @@ img {
   bottom: 2rem;
   right: 2rem;
   font-size: 2.2rem;
+  z-index: 20;
 }
 .arrow_btn a i {
   background-color: red;
