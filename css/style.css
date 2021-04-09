@@ -271,6 +271,7 @@ img {
 }
 .home_social {
   margin-bottom: 2rem;
+  display: none;
 }
 /*OLD VERSION*/
 
@@ -604,6 +605,9 @@ span {
   .contact_container,
   .contact_inputs {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .home_social {
+    display: flex;
   }
 
   .about_data {
