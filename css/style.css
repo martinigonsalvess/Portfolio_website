@@ -141,6 +141,16 @@ img {
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.3));
 }
 /*nav*/
+.arrow_btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 2.2rem;
+}
+.arrow_btn a i {
+  background-color: red;
+  border-radius: 50%;
+}
 .nav {
   height: var(--header-height);
   display: flex;
