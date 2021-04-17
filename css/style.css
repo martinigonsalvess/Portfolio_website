@@ -223,6 +223,9 @@ img {
   color: var(--text-color-link);
   transform: scale(1.3);
 }
+.nav_toggle:focus {
+  outline: none;
+}
 
 /*show menu*/
 .show {
