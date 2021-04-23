@@ -277,8 +277,12 @@ img {
 .home_img img {
   width: 100%;
 }
-.home_title {
+.home_name_title {
   font-size: 1.5rem;
+  padding-bottom: 4rem;
+}
+.home_title {
+  font-size: 2.5rem;
   font-weight: bold;
   color: var(--text-color);
 }
