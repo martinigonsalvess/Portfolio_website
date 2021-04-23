@@ -247,13 +247,17 @@ img {
 
 .home_container {
   height: calc(100vh - var(--header-height));
-  align-items: center;
-}
-.home_data {
+  /* align-items: center; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.home_data {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
   height: max-content;
   /* text-align: center; */
   padding: 2rem;
@@ -278,6 +282,7 @@ img {
   font-weight: bold;
   color: var(--text-color);
 }
+
 .home_profession {
   /* font-size: var(--small-font-size); */
   font-size: 2.2rem;
@@ -603,8 +608,11 @@ span {
     /* padding-top: 5rem; */
     /* align-items: center; */
   }
-  .home_title {
+  .home_name_title {
     font-size: 2.2rem;
+  }
+  .home_title {
+    font-size: 4.2rem;
   }
   .home_img {
     margin: 3rem 0 3rem 0;
