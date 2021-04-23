@@ -611,6 +611,7 @@ span {
   .home_data {
     /* padding-top: 5rem; */
     /* align-items: center; */
+    padding: 14rem;
   }
   .home_name_title {
     font-size: 2.2rem;
