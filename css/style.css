@@ -10,8 +10,9 @@
   --font-semi-bold: 600;
   --font-bold: 700;
   /*colors*/
-  --first-color: #86c232;
-  --first-color-dark: #61892f;
+  /* --first-color: #86c232; */
+  --first-color: #6ca71a;
+  --first-color-dark: #86c232;
   --first-color-darken: #f3d00b;
   --first-color-darken-nav: #f3b50b;
   --text-color: #fff;
