@@ -436,6 +436,9 @@ span {
 .skills_react {
   width: 50%;
 }
+.skills_next {
+  width: 10%;
+}
 .skills_bootstrap {
   width: 30%;
 }
