@@ -503,6 +503,9 @@ span {
   border-radius: 0.5rem;
   transition: 0.3s;
 }
+.works_data p {
+  color: var(--background-color);
+}
 .works_link {
   display: inline-flex;
   font-size: 1.5rem;
