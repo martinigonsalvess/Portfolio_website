@@ -52,11 +52,19 @@ gsap.from(".home_intro_text", {
   y: -100,
   ease: "Power2.easeInOut",
 });
+gsap.from("span", {
+  opacity: 0,
+  duration: 1,
+  y: -100,
+  stagger: 1,
+  ease: "Power2.easeInOut",
+});
 gsap.from(".nav_item", {
   opacity: 0,
   delay: 0.8,
   duration: 1,
   y: -50,
+  stagger: 0.6,
   ease: "Power2.easeInOut",
 });
 gsap.from(".cv_link", {
