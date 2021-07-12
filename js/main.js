@@ -56,7 +56,7 @@ gsap.from("span", {
   opacity: 0,
   duration: 1,
   y: -100,
-  stagger: 1,
+  stagger: 0.4,
   ease: "Power2.easeInOut",
 });
 gsap.from(".nav_item", {
@@ -70,7 +70,7 @@ gsap.from(".nav_item", {
 gsap.from(".cv_link", {
   opacity: 0,
   delay: 1.2,
-  duration: 1,
+  duration: 3,
   y: -50,
   ease: "Power2.easeInOut",
 });
@@ -78,7 +78,7 @@ gsap.from(".home_social", {
   opacity: 0,
   delay: 1.6,
   duration: 1,
-  y: -50,
+  y: -1,
   ease: "Power2.easeInOut",
 });
 /**End GSAP */
