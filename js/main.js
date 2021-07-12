@@ -46,6 +46,31 @@ function scrollActive() {
 }
 /**Start GSAP */
 
-gsap.from(".home_intro_text", { opacity: 0, duration: 1, y: -300 });
-
+gsap.from(".home_intro_text", {
+  opacity: 0,
+  duration: 1,
+  y: -100,
+  ease: "Power2.easeInOut",
+});
+gsap.from(".nav_item", {
+  opacity: 0,
+  delay: 0.8,
+  duration: 1,
+  y: -50,
+  ease: "Power2.easeInOut",
+});
+gsap.from(".cv_link", {
+  opacity: 0,
+  delay: 1.2,
+  duration: 1,
+  y: -50,
+  ease: "Power2.easeInOut",
+});
+gsap.from(".home_social", {
+  opacity: 0,
+  delay: 1.6,
+  duration: 1,
+  y: -50,
+  ease: "Power2.easeInOut",
+});
 /**End GSAP */
