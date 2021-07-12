@@ -44,3 +44,8 @@ function scrollActive() {
     }
   });
 }
+/**Start GSAP */
+
+gsap.from(".home_intro_text", { opacity: 0, duration: 1, y: -300 });
+
+/**End GSAP */
