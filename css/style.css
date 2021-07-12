@@ -20,6 +20,7 @@
   --first-color-light: #eae7e6;
   --first-color-lighten: #fff;
   --background-color: #222629;
+  --background-color2: #2d3436;
   --text-color2: #474b4f;
 
   /*font and typography*/
@@ -241,11 +242,15 @@ img {
 
 .home,
 .skills,
-.works,
+.about,
 .footer {
   background-color: var(--background-color);
 }
-
+.works,
+.education,
+.contact {
+  background-color: var(--background-color2);
+}
 .home_container {
   height: calc(100vh - var(--header-height));
   /* align-items: center; */
@@ -358,7 +363,7 @@ img {
   row-gap: 2rem;
 }
 .about_data {
-  color: var(--text-color2);
+  color: var(--text-color);
 }
 
 /* .about_img {
@@ -383,7 +388,7 @@ img {
 }
 .about_information-data a,
 span {
-  color: var(--text-color2);
+  color: var(--text-color);
 }
 .about_information-icon {
   font-size: 1.5rem;

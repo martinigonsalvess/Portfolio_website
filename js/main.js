@@ -81,4 +81,5 @@ gsap.from(".home_social", {
   y: -1,
   ease: "Power2.easeInOut",
 });
+
 /**End GSAP */
