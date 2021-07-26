@@ -56,7 +56,7 @@ gsap.from("span", {
   opacity: 0,
   duration: 1,
   y: -100,
-  stagger: 0.4,
+  stagger: 0.1,
   ease: "Power2.easeInOut",
 });
 gsap.from(".nav_item", {
